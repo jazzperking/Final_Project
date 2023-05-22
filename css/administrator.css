@@ -1,0 +1,59 @@
+
+#administrator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    text-align: center;
+}
+#administrator p{
+    width: 750px;
+    font-size: 20px;
+}
+#grid{
+
+
+  width:90%;
+    height: auto;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#grid div{
+  color: black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid black;
+}
+@media only screen and (max-width: 600px) {
+  #grid{
+    width:90%;
+      height: auto;
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 10px;
+      font-size: 12px;
+  }
+  #grid div{
+      
+      padding: 10px;
+      border: 2px solid black;
+  }
+  #administrator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     /* Adjust the height as needed */
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
